@@ -1,1 +1,408 @@
-hi
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>references</title>
+    <link href="html-reference.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  
+  <h1>HTML Reference Page</h1>
+  <hr>
+<div class="reftable"><!--Ask why the border doesn't collapse--><!--REFERENCE TABLE ELEMENT-->
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td> <a href="#1"> HTML </a> </td>
+    <td> &lt;html&gt; </td>
+    <td> &lt;/html&gt; </td>
+    <td> &lt;html&gt;head and body&lt;/html&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#2"> Head</a> </td>
+    <td> &lt;head&gt; </td>
+    <td> &lt;/head&gt; </td>
+    <td> &lt;head&gt;heading elements&lt;/head&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#3"> Title </a> </td>
+    <td> &lt;title&gt; </td>
+    <td> &lt;/title&gt; </td>
+    <td> &lt;title&gt;page title&lt;/title&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#4"> Body </a> </td>
+    <td> &lt;body&gt; </td>
+    <td> &lt;/body&gt; </td>
+    <td> &lt;body&gt;body of document&lt;/body&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#5"> Headings </a> </td>
+    <td> &lt;h&gt; </td>
+    <td> &lt;/h&gt; </td>
+    <td> &lt;h&gt;heading&lt;/h&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#6"> Paragraph </a> </td>
+    <td> &lt;p&gt; </td>
+    <td> &lt;/p&gt; </td>
+    <td> &lt;p&gt;This is a paragraph&lt;/p&gt;</td>
+  </tr>
+   <tr>
+    <td> <a href="#7"> Breaks </a> </td>
+    <td> &lt;br&gt; </td>
+    <td>  </td>
+    <td> &lt;br&gt;</td>
+  </tr>
+   <tr>
+    <td> <a href="#8"> Line </a> </td>
+    <td> &lt;hr&gt; </td>
+    <td>  </td>
+    <td> &lt;hr&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#9"> Comments </a> </td>
+    <td> &lt;!-- </td>
+    <td> --&gt; </td>
+    <td> &lt;!--comment--&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#10"> Links </a> </td>
+    <td> &lt;a&gt; </td>
+    <td> &lt;/a&gt; </td>
+    <td> &lt;a href"https://www.w3schools.com/"=&gt;w3schools&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#11"> Images </a> </td>
+    <td> &lt;img </td>
+    <td> &gt; </td>
+    <td> &lt;img src="pulpitrock.jpg" alt="Mountain View"&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#12"> Lists </a> </td>
+    <td> &lt;ul&gt; &lt;ol&gt; &lt;lil&gt; </td>
+    <td> &lt;/ul&gt; &lt;/ol&gt; &lt;/li&gt; </td>
+    <td> 
+    &lt;ul&gt; 
+    &lt;li&gt; listed item &lt;/li&gt;
+    &lt;/ul&gt;
+  </tr>
+  <tr>
+    <td> <a href="#13"> Table </a> </td>
+    <td> &lt;table&gt; &lt;th&gt; &lt;td&gt; &lt;tr&gt;</td>
+    <td> &lt;/table&gt; &lt;/th&gt; &lt;/td&gt; &lt;/tr&gt; </td>
+    <td> &lt;table&gt; 
+    &lt;tr&gt;
+    &lt;th&gt;table heading&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;table data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;</td>
+  </tr>
+  <tr>
+    <td> <a href="#14"> Blocks </a> </td>
+    <td> &lt;div&gt; </td>
+    <td> &lt;/div&gt; </td>
+    <td> &lt;div&gt;block&lt;/div&gt;</td>
+  </tr>
+</table>
+</div>
+
+<h2 id="1" class="element">HTML Element:</h2><!--HTML ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>The statement that identifies the document as html</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html&gt;</p>
+<p>&lt;/html&gt;</p>
+
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_basic.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="2" class="element">Head Element</h2><!--HEAD META ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>This element contains metadata about the document</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;head&gt;</p>
+<p>&lt;/head&gt;</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_basic.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="3" class="element">Title Element</h2><!--TITLE ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>Title of the document(as shown across the browser bar)</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;title&gt;</p>
+<p>&lt;/title&gt;</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_intro.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="4" class="element">Body Element</h2><!--BODY ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>The body defines the main content of the html document</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;body&gt;</p>
+<p>&lt;/body&gt;</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+  <a href="https://www.w3schools.com/html/html_basic.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="5" class="element">Heading Element</h2><!--HEADING ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>The element nessessary to render a heading</p>
+<h3>Syntax</h3>
+<p>&lt;h&gt;</p>
+<p>&lt;/h&gt;</p>
+<div class="example">
+  <h3>Example</h3> 
+  <p>&lt;h&gt;Hey look at this heading&lt;/h&gt;</p>
+</div>
+<h3 class="DSE">Display</h3>
+<h4>Hey look at this heading</h4>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_basic.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="6" class="element">Paragraph Element</h2><!--PARAGRAPH ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>This tag represents a paragraph of text</p>
+<h4 class="DSE">Syntax</h4>
+<p>&lt;p&gt;</p>
+<p>&lt;/p&gt;</p>
+<div class="example">
+  <h3>Example</h3> 
+<p>&lt;p&gt;paragraph&lt;/p&gt;</p>
+</div>
+<h3 class="DSE">Display</h3>
+<p>Hey look at this paragraph</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_basic.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="7" class="element">Break Element</h2><!--BREAK ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>This element produces a break in the line text</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;br&gt;</p>
+<div class="example">
+  <h3>Example</h3> 
+<p>&lt;p&gt;This paragraph breaks&lt;br&gt;like this&lt;/p&gt;</p>
+</div>
+<p>This paragraph breaks<br>like this</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_elements.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="8" class="element">Line Element</h2><!--HOR LINE ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>This tag creates a themeatic line horizontal across the page</p>
+<h3 class="DSE">Syntax + Example</h3>
+<p>&lt;hr&gt;</p>
+<h3 class="DSE">Display</h3>
+<hr>
+<p>(Observe the line above)</p>
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_blocks.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="9" class="element">Comment Element</h2><!--COMMENT ELEMENT(Within a Comment)-->
+<h3 class="DSE">Description</h3>
+<p>This element is only visible to those looking at the source code</p>
+<h3 class="DSE">Syntax + Example</h3>
+<p>&lt;!-- --&gt;</p>
+<!--This is a comment-->
+<h3 class="DSE">Link of Reference</h3>
+<p>
+    <a href="https://www.w3schools.com/html/html_comments.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="10" class="element">Link Element</h2><!--LINK ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>This tag is used to link other sites to the page</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;a href="link"&gt;</p>
+<p>&lt;/a&gt;</p>
+<div class="example">
+  <h3>Example</h3> 
+<p>&lt;h&gt;a href="repl.it"&gt; Repl.it &lt;/a&gt;</p>
+</div>
+<h3 class="DSE">Display</h3>
+<a href="repl.it"> repl.it</a>
+<h3 class="DSE">Link of Reference</h3>
+ <p>
+  <a href="https://www.w3schools.com/html/html_links.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="11" class="element">Image Element</h2><!--IMAGE ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>The image tag creates a holding space for a referenced image</p>
+<h3 class="DSE">Syntax</h3>
+<p>&lt;img src="link" alt="alternative text" style="width:#;height:#;"&gt;</p>
+<div class="example">
+  <h3>Example</h3> 
+  &lt;img src="https://static.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg" alt="blue flower" style="width:500px;height:400px;"&gt;
+</div>
+<h3 class="DSE">Display</h3>
+<img src="https://static.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg" alt="blue flower" style="width:500px;height:400px;">
+<h3 class="DSE">Link of Reference</h3>
+<p>
+  <a href="https://www.w3schools.com/html/html_images.asp"> w3schools </a>
+</p>
+
+<hr>
+
+<h2 id="12" class="element">List Elements</h2><!--LIST ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>These tags are used to identify listed items and what form of list they fall into</p>
+<h3 class="DSE">Syntax</h3>
+<p>
+  &lt;ul&gt; &lt;ol&gt; &lt;li&gt;
+  </p>
+<div class="example">
+  <h3>Example</h3> 
+<p>
+&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li>Tea&lt;/li&gt;
+  &lt;li>Milk&lt;/li&gt;
+&lt;/ul&gt;
+</p>
+
+<p>
+  &lt;ol&gt;
+  &lt;li>Coffee&lt;/li&gt;
+  &lt;li>Tea&lt;/li&gt;
+  &lt;li>Milk&lt;/li&gt;
+&lt;/ol&gt;
+</p>
+</div>
+<h3 class="DSE">Display</h3>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<h3 class="DSE">Link of Reference</h3>
+<a href="https://www.w3schools.com/html/html_lists.asp"> w3schools </a>
+
+<hr>
+
+<h2 id="13" class="element">Table Element</h2><!--TABLE ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>The table tags are used to display tabular data</p>
+<h3 class="DSE">Syntax</h3>
+&lt;table&gt; &lt;tr&gt; &lt;th&gt; &lt;td&gt;
+<div class="example">
+  <h3>Example</h3> 
+<pre>
+&lt;table&gt;
+  &lt;tr&gt; 
+    &lt;th&gt; heading &lt;/th&gt;
+    &lt;th&gt; heading &lt;/th&gt;
+    &lt;th&gt; heading &lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; data &lt;/td&gt;
+    &lt;td&gt; data &lt;/td&gt;
+    &lt;td&gt; data &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</pre>
+</div>
+<h3 class="DSE">Display</h3>
+<div class="extable">
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+</div>
+<h3 class="DSE">Link of Reference</h3>
+<a href="https://www.w3schools.com/html/html_tables.asp> w3schools"> w3schools </a>
+
+<hr>
+
+<h2 id="14" class="element">Block Element</h2><!--BLOCK ELEMENT-->
+<h3 class="DSE">Description</h3>
+<p>A block element acts as a parent element for all elements in its start tag and end tag</p>
+<h3 class="DSE">Syntax</h3>
+&lt;div&gt;
+<div class="example">
+  <h3>Example</h3> 
+<p>
+&lt;div&gt; Hello &lt;/div&gt;
+&lt;div&gt; World &lt;/div&gt;
+</p>
+</div>
+<h3 class="DSE">Display</h3>
+<div>Hello</div>
+<div>World</div>
+
+<h3 class="DSE">Link of Reference</h3>
+<a href="https://www.w3schools.com/html/html_blocks.asp"> w3schools </a>
+
+<br>
+<br>  
+<!--HOME LINK ELEMENT-->
+<p>
+ <a href="https://usernameforjack.github.io/index.html"> Home </a>
+  </p>
+</body>
+</html>
